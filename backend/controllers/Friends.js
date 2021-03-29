@@ -1,8 +1,7 @@
 const Friend = require("../models/Friend");
-const friendsList = require("../data/Friends");
+let friendsList = require("../data/Friends");
 
 class Friends {
-    #friendsList = friendsList
 
     save(amigo) {
         let newFriend = new Friend(amigo)
@@ -10,12 +9,12 @@ class Friends {
     }
 
     getAllFriends() {
-        return this.#friendsList;
+        return friendsList;
     }
 
     getById(id) {
         id = parseInt(id);
-        let amigo = this.#friendsList.filter(friend => friend.id === id)
+        let amigo = friendsList.filter(friend => friend.id === id)
         if (amigo.length >= 1) {
             return amigo;
         }
@@ -29,11 +28,11 @@ class Friends {
         if (!amigo) {
             return false
         } else {
-            this.#friendsList = this.#friendsList.map(friend => {
+            friendsList = friendsList.map(friend => {
                 if (friend.id === id) friend.status = status;
                 return friend;
             });
-            let find = this.#friendsList.find(friend => friend.status === status);
+            let find = friendsList.find(friend => friend.status === status);
             if (find.status === status) {
                 return find;
             } else {
@@ -53,7 +52,7 @@ class Friends {
 
         }else {
 
-            this.#friendsList = this.#friendsList.filter(friend => friend.id !== id)
+            friendsList = friendsList.filter(friend => friend.id !== id)
             return !this.getById(id);
 
         }
