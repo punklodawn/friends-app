@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="486a0f49-5feb-4acf-9b72-ea808148a2a0" name="Default Changelist" comment="" />
+    <list default="true" id="486a0f49-5feb-4acf-9b72-ea808148a2a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,7 @@
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/backend/package.json" />
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1qOE35n4PZU4jG5clWKAi2Cb4s2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -64,7 +70,7 @@
       <workItem from="1616942035661" duration="18271000" />
       <workItem from="1616961538170" duration="434000" />
       <workItem from="1616962032535" duration="16000" />
-      <workItem from="1616962054894" duration="34093000" />
+      <workItem from="1616962054894" duration="34880000" />
     </task>
     <servers />
   </component>

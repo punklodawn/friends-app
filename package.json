@@ -4,14 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./backend/bin/www"
-  },
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "morgan": "~1.9.1"
+    "start": "node ./backend/bin/www && echo done"
   },
   "repository": {
     "type": "git",
