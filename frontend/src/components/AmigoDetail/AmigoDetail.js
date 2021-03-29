@@ -23,16 +23,18 @@ const AmigoDetail = ({match, setMessage}) => {
     useEffect(() => {
         getDetail(id);
         setMessage({
-            name: '',
-            phone: '',
-            email: ''
+            type: '',
+            display: 'none',
+            title: '',
+            text: ''
         })
         return ()=> setMessage({
-            name: '',
-            phone: '',
-            email: ''
+            type: '',
+            display: 'none',
+            title: '',
+            text: ''
         })
-    }, [id])
+    }, [id,setMessage])
 
     if (!amigo.name) {
         return <div>No existe el amigo solicitado</div>
@@ -80,13 +82,14 @@ const AmigoDetail = ({match, setMessage}) => {
         }
     }
     return (
-        <div className='container mt-5'>
+        <div className='container'>
             <div className="row">
-                <div className='container mt-5'>
+                <div className='container mt-5 d-flex flex-column'>
+                    <h1 className='mb-5 align-self-center'>Información de tallada de <strong>{amigo.name}</strong></h1>
                     <Alert />
-                    <div className="card">
+                    <div className="card align-self-center" style={{maxWidth:'19.2rem'}}>
                         <div className="card-header">
-                            <strong>Nombre del amigo: </strong>{amigo.name}
+                            <strong>{amigo.name}</strong>
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item"><strong>Teléfono: </strong>{amigo.phone}</li>
