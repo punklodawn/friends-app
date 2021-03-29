@@ -64,21 +64,30 @@ class Friends {
 
 
 const amigo = {
-    "name": "Amigo 1",
+    "name": "Julian de los Rios Bolaños",
     "phone": 59999999,
-    "email": "email@email"
+    "email": "email1@email.com"
 }
 
 const amigo2 = {
-    "name": "Amigo 2",
-    "phone": 54878787,
-    "email": "email2@email2.2"
+    "name": "Lina Peréa Bustamante",
+    "phone": 666666666666666,
+    "email": "email2@email.com",
+    "status": "Inactive"
+}
+
+const amigo3 = {
+    "name": "Casimiro de las Hoz Jaramillo",
+    "phone": 2222222222222,
+    "email": "email3@email.com",
+    "status": "Blocked"
 }
 
 const friendController = new Friends()
 
 friendController.save(amigo);
 friendController.save(amigo2);
+friendController.save(amigo3);
 
 
 module.exports = Friends
