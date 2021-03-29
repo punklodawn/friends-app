@@ -7,9 +7,9 @@ import axios from "axios";
 
 const AddFriends = ({setMessage}) => {
     const [amigo, setAmigo] = React.useState({
-        name: 'Pedro',
-        phone: '34234234',
-        email: '23423423@asdasd.asd'
+        name: '',
+        phone: '',
+        email: ''
     });
 
     const addFriend = (amigo) => {
@@ -34,6 +34,11 @@ const AddFriends = ({setMessage}) => {
             display: 'none',
             title: '',
             text: ''
+        })
+        return ()=> setMessage({
+            name: '',
+            phone: '',
+            email: ''
         })
     },[setMessage])
 

@@ -22,6 +22,16 @@ const AmigoDetail = ({match, setMessage}) => {
     }
     useEffect(() => {
         getDetail(id);
+        setMessage({
+            name: '',
+            phone: '',
+            email: ''
+        })
+        return ()=> setMessage({
+            name: '',
+            phone: '',
+            email: ''
+        })
     }, [id])
 
     if (!amigo.name) {

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="486a0f49-5feb-4acf-9b72-ea808148a2a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/js/main.e1052294.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/js/main.e1052294.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AmigoDetail/AmigoDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AmigoDetail/AmigoDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/addFriends/AddFriends.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/addFriends/AddFriends.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +73,7 @@
       <workItem from="1616942035661" duration="18271000" />
       <workItem from="1616961538170" duration="434000" />
       <workItem from="1616962032535" duration="16000" />
-      <workItem from="1616962054894" duration="36245000" />
+      <workItem from="1616962054894" duration="36910000" />
     </task>
     <servers />
   </component>
